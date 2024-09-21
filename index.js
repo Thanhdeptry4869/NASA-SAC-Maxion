@@ -28,7 +28,7 @@ class circle{
         this.minR = Math.floor(Math.random() * minRadius + 1);
         this.r = this.minR;
         this.x = Math.random() * (window.innerWidth - this.r) + this.r;
-        this.y = Math.random() * (window.innerWidth - this.r) + this.r;
+        this.y = Math.random() * (window.innerHeight - this.r) + this.r;
         this.strokeColor = this.getRandomHslColor();
         this.fillColor = this.getRandomHslColor();
     }
